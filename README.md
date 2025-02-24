@@ -10,6 +10,11 @@ A TypeScript implementation of Product Quantization (PQ) for efficient similarit
 
 Product Quantization is a technique used to compress high-dimensional vectors into compact codes while preserving the ability to compute approximate distances. This makes it particularly useful for applications like similarity search in large-scale datasets.
 
+For more detailed explanations of Product Quantization, see:
+
+- [Understanding HNSW and Product Quantization](https://weaviate.io/blog/ann-algorithms-hnsw-pq#kmeans-encoding-results)
+- [Product Quantization Explained](https://www.pinecone.io/learn/series/faiss/product-quantization/)
+
 ## Features
 
 - Configurable number of subvectors and centroids
