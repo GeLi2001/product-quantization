@@ -21,28 +21,29 @@ Product Quantization is a technique used to compress high-dimensional vectors in
 
 ### Basic Example
 
-`import { ProductQuantizer } from 'product-quantization';
-
+```typescript
+import { ProductQuantizer } from "product-quantization";
 // Initialize the quantizer
 const pq = new ProductQuantizer({
-dimension: 128, // Original vector dimension
-numSubvectors: 8, // Number of subvectors
-numCentroids: 256 // Number of centroids per subvector (default: 256)
+  dimension: 128, // Original vector dimension
+  numSubvectors: 8, // Number of subvectors
+  numCentroids: 256 // Number of centroids per subvector (default: 256)
 });
 
 // Train the quantizer with your data
 const trainingData = [
-new Float32Array([/* your 128-dimensional vector */]),
-// ... more training vectors
+  new Float32Array([/ your 128-dimensional vector /])
+  // ... more training vectors
 ];
 pq.train(trainingData);
 
 // Encode a vector
-const vector = new Float32Array([/* your vector */]);
+const vector = new Float32Array([/ your vector /]);
 const encoded = pq.encode(vector);
 
 // Decode the vector
-const decoded = pq.decode(encoded);`
+const decoded = pq.decode(encoded);
+```
 
 ### API Reference
 
@@ -87,3 +88,7 @@ const decoded = pq.decode(encoded);`
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

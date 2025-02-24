@@ -1,6 +1,6 @@
 {
   "name": "product-quantization",
-  "version": "0.1.0",
+  "version": "0.1.4",
   "description": "Product Quantization for Vector Search",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -33,12 +33,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yourusername/product-quantization.git"
+    "url": "git+https://github.com/GeLi2001/product-quantization.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/product-quantization/issues"
+    "url": "https://github.com/GeLi2001/product-quantization/issues"
   },
-  "homepage": "https://github.com/yourusername/product-quantization#readme",
+  "homepage": "https://github.com/GeLi2001/product-quantization#readme",
   "files": [
     "dist",
     "README.md"
